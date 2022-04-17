@@ -48,3 +48,27 @@ Java, C, C++, Rust, Go
 - Many tools include TS compilation by default
 - Most IDEs have great support for TS
 - The tsconsfig.json file is used to configure how TypeScript works
+
+---
+
+# How to use TypeScript with React?
+
+`npx create-react-app my-app --template typescript`
+
+## Some points about TypeScript
+
+- files end in .tsx
+- strict to true in config, harder at best but better in long run
+- catches errors in development before it makes it into production
+- does not replace TDD. can detect poorly structured code in advance, but not bad logic
+- **try to never use any**
+- provides automatic documentation for your code, helps with collaborative coding
+- can have type inference (guesses what the type may be)
+
+## Benefits of JS vs TS (this or that format)
+
+| JavaScript  | TypeScript       |
+| ----------- | ---------------- |
+| Silly Bugs  | More Code        |
+| Crappy Docs | Automatic Docs   |
+| Fast MVP    | Fast Refactoring |
