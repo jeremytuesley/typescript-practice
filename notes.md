@@ -58,7 +58,7 @@ Java, C, C++, Rust, Go
 ## Some points about TypeScript
 
 - files end in .tsx
-- strict to true in config, harder at best but better in long run
+- strict to true in config, harder at first but better in long run
 - catches errors in development before it makes it into production
 - does not replace TDD. can detect poorly structured code in advance, but not bad logic
 - **try to never use any**
